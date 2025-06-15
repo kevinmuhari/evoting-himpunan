@@ -1,0 +1,1 @@
+console.log("Halo, Node.js berfungsi!");

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Voting Himpunan Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Pemilihan Ketua Himpunan</h1>
+            <p id="user-greeting" class="user-greeting"></p>
+        </header>
+
+        <main id="main-content">
+            <div id="login-section">
+                <p>Silakan login dengan akun email mahasiswa Anda untuk memilih.</p>
+                <div id="google-login-button"></div>
+            </div>
+
+            <div id="candidates-section" class="hidden">
+                <h2>Pilih Kandidat Anda:</h2>
+                <div id="candidates-list"></div>
+            </div>
+
+            <div id="message-section" class="hidden">
+                <h2 id="message-title"></h2>
+                <p id="message-body"></p>
+            </div>
+        </main>
+    </div>
+    
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script src="app.js"></script>
+</body>
+</html>
