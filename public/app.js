@@ -1,7 +1,7 @@
 // Lokasi file: proyek-evoting/public/app.js
 
 const GOOGLE_CLIENT_ID = '85562390433-kki59gskm3kash6vns62n34umaafomt9.apps.googleusercontent.com';
-const API_BASE_URL = 'https://evoting-himpunan-1.kevinmuhari.repl.co'; // INI ADALAH URL DARI REPLIT ANDA;
+const API_BASE_URL = 'https://evoting-himpunan-1.kevinmuharrif.repl.co';
 
 let userProfile = null; // Variabel untuk menyimpan data user setelah login
 
